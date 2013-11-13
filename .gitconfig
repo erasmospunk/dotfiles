@@ -1,0 +1,23 @@
+[user]
+  name = Giannis Dzegoutanis
+  email = erasmospunk@gmail.com
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore
+  #safecrlf = true
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  pl = pull
+  ps = push
+  br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[color]
+  ui = true
+[push]
+  default = upstream
+[credential]
+  helper = osxkeychain
