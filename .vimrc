@@ -7,10 +7,15 @@ syntax on
 " jj for ESC
 imap jj <Esc>
 
-" Set tabs to 2 spaces
-set tabstop=2
-set shiftwidth=2
+" Set tabs to 4 spaces
+set tabstop=4
+set shiftwidth=4
+
+" Tabs as spaces
 set expandtab
+
+" Show whitespace
+"set list
 
 " Ignore case for searches
 set ignorecase
