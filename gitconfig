@@ -1,6 +1,6 @@
 [user]
-  name = John L. Jegutanis
-  email = erasmospunk@gmail.com
+	name = John L. Jegutanis
+	email = erasmospunk@gmail.com
 [core]
   autocrlf = input
 	excludesfile = /Users/erank/.gitignore_global
@@ -28,3 +28,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/erank/.stCommitMsg
